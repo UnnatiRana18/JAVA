@@ -16,7 +16,7 @@ public class funct1{
         int b = sc.nextInt();
 
         int sum = SUM(a,b);
-        System.out.println("the sum is "+sum);
+        System.out.printf("the sum is %d",sum);
     }
 
 
