@@ -8,6 +8,11 @@ public class funct1{
 
     }
 
+    public static int MUL(int a , int b){
+        int mul=a*b;
+        return mul;
+    }
+
     public static void main(String args[]){
 
         Scanner sc=new Scanner(System.in);
@@ -16,7 +21,10 @@ public class funct1{
         int b = sc.nextInt();
 
         int sum = SUM(a,b);
-        System.out.printf("the sum is %d",sum);
+        System.out.printf("the sum is %d \n",sum);
+
+        int mul=MUL(a,b);
+        System.out.printf("the product is %d", mul);
     }
 
 
