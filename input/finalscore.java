@@ -13,7 +13,7 @@ public class finalscore {
 
         Arrays.sort(marks);
        
-        long res=(marks[2]+marks[1])/2;
+        long res=((marks[2]+marks[1])/2)+1;
         System.out.println(res);
 
     }
