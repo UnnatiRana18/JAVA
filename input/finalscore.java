@@ -13,8 +13,19 @@ public class finalscore {
 
         Arrays.sort(marks);
        
-        long res=((marks[2]+marks[1])/2)+1;
-        System.out.println(res);
+        //double res=((marks[2]+marks[1])/2.0);
+        //int finalScore = (int) Math.ceil(res);
+
+        int sum = marks[1]+marks[2];
+
+        int finalScore;
+        if (sum % 2 == 0) {
+            finalScore = sum / 2;
+        } else {
+            finalScore = (sum / 2) + 1;
+        }
+
+        System.out.println(finalScore);
 
     }
     
