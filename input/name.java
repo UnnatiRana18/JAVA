@@ -7,5 +7,5 @@ public static void  main(String args[]){
     String name=kbrd.nextLine();
 
     System.out.println("My Name is "+name);
-}u
+}
 }
