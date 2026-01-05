@@ -6,7 +6,7 @@ public class child {
 
         String myname=kbrd.nextLine();
         String mother=kbrd.nextLine();
-        String father=kbrd.nextLUine();
+        String father=kbrd.nextLine();
 
         System.out.println("My name is "+myname+" and I am a proud child of "+father+" and "+mother);
     }
